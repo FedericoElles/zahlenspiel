@@ -1,0 +1,33 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "de-DE": {
+          "summary": "Ein Spiel für Kinder, die bis 10 Zählen können, und Ihr Zahlenverständniss trainieren möchten - Keine Rechenaufgaben.",
+          "examplePhrases": [
+            "Alexa starte zahlen spiel",
+            "Alexa öffne zahlen spiel",
+            "Alexa spiele zahlen spiel"
+          ],
+          "name": "Zahlenspiel",
+          "description": "Ein Spiel für Kinder, die bis 10 Zählen können, und Ihr Zahlenverständniss trainieren möchten. Alexa fragt in 10 Runden, welche von zwei Zahlen größer ist. Testen Sie einfach ob Ihr Kind durch diese Fragestellung angeregt wird: 'Welche Zahl ist größer, die Funf, oder die Sieben?' Fragt Ihr Kind nach einer weiteren Frage, können sie sorgenlos an Alexa übergeben, falls Sie keine Stimme mehr haben."
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "CHILDRENS_GAMES",
+      "distributionCountries": ["DE"]
+    },
+    "apis": {
+      "custom": {}
+    },
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": true,
+      "usesPersonalInfo": false
+    },
+    "manifestVersion": "1.0"
+  }
+}
