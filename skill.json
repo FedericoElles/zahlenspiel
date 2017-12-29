@@ -19,7 +19,11 @@
       "distributionCountries": ["DE"]
     },
     "apis": {
-      "custom": {}
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
     },
     "privacyAndCompliance": {
       "allowsPurchases": false,

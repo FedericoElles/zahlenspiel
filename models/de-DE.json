@@ -31,22 +31,22 @@
                   "samples": []
                 },
                 {
-  	              "intent": "NumberResponse",
+  	              "name": "NumberResponse",
 			      "slots": [
 			        {
 			          "name": "Number",
 			          "type": "AMAZON.NUMBER"
 			        }
 			      ],
-                    "samples":[
-                        "{Number}",
-                        "die {Number}",
-                        "die zahl {Number}",
-                        "zahl {Number}",
-                        "{Number} ist größer",
-                        "{Number} ist kleiner",
-                        "{Number} ist es"
-                    ]
+                "samples":[
+                    "{Number}",
+                    "die {Number}",
+                    "die zahl {Number}",
+                    "zahl {Number}",
+                    "{Number} ist größer",
+                    "{Number} ist kleiner",
+                    "{Number} ist es"
+            	  ]
                 }
             ]
         }
