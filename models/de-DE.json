@@ -1,0 +1,54 @@
+{
+    "interactionModel":{
+        "languageModel":{
+            "invocationName":"zahlen spiel",
+            "types":[],
+            "intents":[
+                {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.YesIntent",
+                  "samples": [
+                  	"los",
+                  	"start",
+                  	"ich will",
+                  	"ja",
+                  	"gerne"
+                  ]
+                },
+                {
+                  "name": "AMAZON.NoIntent",
+                  "samples": []
+                },
+                {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+                },
+                {
+  	              "intent": "NumberResponse",
+			      "slots": [
+			        {
+			          "name": "Number",
+			          "type": "AMAZON.NUMBER"
+			        }
+			      ],
+                    "samples":[
+                        "{Number}",
+                        "die {Number}",
+                        "die zahl {Number}",
+                        "zahl {Number}",
+                        "{Number} ist größer",
+                        "{Number} ist kleiner",
+                        "{Number} ist es"
+                    ]
+                }
+            ]
+        }
+    }
+}
